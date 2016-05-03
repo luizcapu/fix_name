@@ -42,7 +42,7 @@ public class App extends Thread
 			+ " else 0" 
 			+ " end"
 			+ " as volume"
-			+ " FROM adts.oc_preferences" 
+			+ " FROM oc_preferences" 
 			+ " where userid <> 'admin'"
 			+ " and userid=?" 
 			+ " and appid='files' and configkey='quota'"
